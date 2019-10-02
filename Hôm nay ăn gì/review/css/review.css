@@ -1,0 +1,184 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div {
+    display: block;
+}
+#container{
+	background-color: #f2f2f2;
+	padding-top: 30px;
+}
+/*=== body-container ===*/
+
+
+#body{
+	width:1220px;
+	margin-left: 167px;
+	margin-right: 150px;
+	background-color: #f2f2f2;
+	border: solid 1px black;
+	font-size: 14px;
+}
+
+#menu{
+	background: #f2f2f2;
+	/*height: 570px;*/
+	position: relative;
+    width: 1200px;
+    padding: 15px 0 0 15px;
+}
+#menu ul{
+	width: 1200px;
+	list-style-type: none;
+	text-align: center;		
+}
+
+#menu li{
+	display: inline-block;
+	
+	line-height: 15px;
+	/*margin: 3px;*/
+	width: 228px;
+    padding: 0 5px 5px 0;
+}
+
+#menu a{
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	display: block;
+	width:228px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#menu a:hover{
+	background-color: #f1f1f1;
+	color: #000000;
+}
+
+#menu li{
+	position: relative;
+}
+
+#menu li:hover .menu-details
+{
+	display: block;
+}
+
+.menu-details li{
+	margin-left: 0;
+}
+
+#title{
+	float: left;
+}
+
+.food{
+	/*border: solid 1px gray;*/
+	background-color: white;
+	display: block;
+    position: relative;
+    float: left;
+    width: 228px;
+    padding: 0 0px 0px 0;
+}
+.avt{
+	display: block;
+    float: left;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    overflow: hidden;
+
+}
+.img{
+	margin-left: : 5px;
+	display: block;
+    float: left;
+    width: 100%;
+    height: 142px;
+    border-radius: 0;
+    
+}
+
+#menu-bar{
+	width: 1200px;
+	background-color: white;
+	height: 60px;
+    background: #fff;
+    padding-left: 20px;
+    line-height: 60px;
+}
+#ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+#li{
+	display: inline-block;
+	width:120px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: -5px;
+}
+
+#menu-bar a{
+	text-decoration: none;
+	display: block;
+	color: black;
+
+
+}
+
+#menu-bar ul li>a:hover{
+	background-color: #f1f1f1;
+	color:black;
+	text-decoration: underline;
+}
+
+#menu-bar ul{
+	white-space: nowrap;
+	margin: 0;
+    padding: 0;
+    max-width: 770px;
+    overflow: hidden;
+    height: 60px;
+    float: left;
+}
+#menu-bar ul li #li-detail{
+	display: block;
+    padding: 0 8px;
+
+}
+#menu-bar ul li #li-detail span{
+	color: #d02128;
+		text-transform: uppercase;
+	font-weight: bold;
+}
+
+#li-detail:hover{
+	cursor: pointer;
+}
+
+#logo-box{
+	float: left;
+}
+
+#logo-img{
+	display: block;
+    float: left;
+    width: 60px;
+    height: 40px;
+    background: #ddd;
+    margin: 12px 15px 0 0;
+    border-radius: 5px;
+}
+#nav-box{
+	float: right;
+    padding-left: 10px;
+    width: 980px;
+}
+
