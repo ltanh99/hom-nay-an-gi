@@ -1,0 +1,328 @@
+div.header{
+	background-color:#2B2829;
+	height: 44px;
+}
+li.a a{
+	text-decoration: none;
+}
+ul.droplinemenu {
+	position: relative;
+	width: 1100px;
+	margin-left: 100px;
+	display: flex;
+}
+
+ul.droplinemenu li.a {
+	margin-right: 50px;
+	padding: 6px;
+	list-style-type: none;
+	cursor:pointer;
+	color: #D1BF74 ;
+	font-size: 22px;
+}
+ul.droplinemenu  li.a:hover {
+	color: #2B2829;
+	background-color: #BFA640;
+}
+
+ul.droplinemenu  > li > ul {
+	display: none;
+	position:absolute;
+	top:50px;
+	left: 30px;
+	width: 1100px;
+	margin: auto;
+	border-bottom: solid 3px #BFA640;
+	border-left: solid 3px #BFA640;
+	border-right:solid 3px #BFA640;
+	background: white;
+}
+
+ul.droplinemenu  > li:hover > ul  {
+	display: block;
+}
+
+ul.droplinemenu  > li > ul > li {
+	display: block;
+	cursor:pointer;
+	list-style-type: none;
+	color: #231F20;
+	font-size: 20px;
+	padding-bottom: 15px;
+	text-align: justify;
+}
+ul.droplinemenu  > li > ul > li:hover {
+	color:  #BFA640;
+}
+ul.b{
+    display: none;
+    position:absolute;
+	width:600px;
+	margin-left: 160px;
+	background: white;
+}
+ul.b>li{
+	list-style: none;
+	margin-right: 10px;
+}
+ul.b a{
+	text-decoration: none;
+	color: #231F20;
+	font-family: segoe ui light;
+	font-size: 15px;
+}
+ul.b li:hover{
+	color: #BFA640;
+}
+ul.droplinemenu>li.a>ul>li.c:hover>ul.b{
+    display: flex;
+	position:absolute;
+	top: 10px;
+}
+
+.logoo{
+	width: 1200px;
+	margin: auto;
+}
+.logoo img{
+	width: 30%;
+	margin-left: 300px;
+	height: 30%;
+	padding-bottom: 30px;
+}
+
+li.c>ul.b>li>a:hover{
+	color: #2B2829;
+}
+li.c>ul.b>li{
+	text-align: center;
+}
+.container{
+	margin-left: 100px;
+}
+
+.myslide .carousel-indicators{
+    opacity: 0;
+}
+ul.h{
+	display: flex;
+	list-style: none;
+}
+ul.h a{
+	text-decoration: none;
+	vertical-align: bottom;
+	font-size: 24px;
+	color:whitesmoke;
+}
+ul.h a:hover{
+	color:  #BFA640;
+}
+ul.h li{
+	text-align: center;
+	width: 350px;
+	height: 300px;
+	border-top: solid 5px #2B2829;
+	border-bottom: solid 1px #2B2829;
+}
+
+
+.x{
+	background-image: url(congthuc/MonTrangMieng/che_background.png);
+}
+.y{
+	background-image: url(congthuc/MonTrangMieng/mochi_background.png);
+}
+.z{
+	background-image: url(congthuc/MonTrangMieng/pudding_background.png);
+}
+.o{
+	background-image: url(congthuc/MonAnSang/sandwich_background.png);
+}
+.r{
+	background-image: url(congthuc/MonAnSang/soup_background.png);
+}
+.p{
+	background-image: url(congthuc/MonAnSang/bánhmì_background.png);
+}
+.l{
+	background-image: url(congthuc/DoUong/Detox/cookie\ matcha_back\ ground.png);
+}
+.m{
+	background-image: url(congthuc/DoUong/Detox/cafe\ trứng_background.png);
+}
+.n{
+	background-image: url(congthuc/DoUong/Detox/sinh\ tố\ bơ_background.png);
+}
+.menubar{
+	margin-top: 40px;
+	display: flex;
+	width: 1100px;
+}
+.leftbar{
+	width: 60%;
+	margin-right: 80px;
+	
+}
+.rightbar{
+	width: 28%;
+}
+.tieude{
+	width: 100%;
+	background-color: #2B2829;
+	padding: 5px;
+	margin-left: 40px;
+	color: #D1BF74;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.tieude2{
+	width: 100%;
+	background-color: #2B2829;
+	padding: 5px;
+	margin-left: 40px;
+	color: #D1BF74;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-top: 80px;
+}
+.tieude3{
+	width: 100%;
+	background-color: #2B2829;
+	padding: 5px;
+	color: #D1BF74;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+img.abc{
+	margin-left: 40px;
+}
+.bv ul{
+	display: flex;
+	width: 100%;
+	list-style: none;
+	margin-bottom: 222podj2px;
+}
+.bv a{
+	text-decoration: none;
+	color: #2B2829;
+}
+.bv li{
+	margin-right: 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.bv img{
+	width: 320px;
+	height: 250px;
+}
+.bv a:hover{
+	color:#BFA640;
+}
+ul.op1{
+	display: flex;
+	list-style: none;
+	width: 750px;
+	margin-bottom: 5px;
+}
+li.x1{
+	background-image: url(congthuc/MonChinh/khoquet_background.png);
+}
+li.x2{
+	background-image: url(congthuc/MonChinh/ganuong_background.png);
+}
+.op1  a{
+	text-decoration: none;
+	font-size: 20px;
+	color:whitesmoke;
+}
+.op1 li{
+	text-align: center;
+	margin-right: 5px;
+	height: 250px;
+	width: 328px;
+}
+.op1 a:hover{
+	color:  #BFA640;
+}
+.x3{
+	background-image: url(congthuc/MonChinh/mi_background.png);
+}
+.x4{
+	background-image: url(congthuc/MonChinh/cahoi_background.png);
+}
+.rightbar p{
+	color: #BFA640;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 60px;
+}
+.bviet a{
+	text-decoration: none;
+	
+	color: #2B2829;
+
+}
+.bviet ul{
+	list-style: none;
+	width: 100%;
+}
+.bviet li{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.bviet a:hover{
+	color:#BFA640;
+}
+.bviet img{
+	width: 310px;
+	height: 250px;
+}
+li.x5{
+	background-image: url(congthuc/DoUong/Detox/detox_dưa\ hấu\ bạc\ hà.png);
+}
+li.x6{
+	background-image: url(congthuc/DoUong/Detox/mojito_H1.png);
+}
+li.x7{
+	background-image: url(congthuc/DoUong/Detox/cookie\ matcha_back\ ground.png);
+}
+li.x8{
+	background-image: url(congthuc/DoUong/Detox/hồng\ trà\ kem\ trứng\ muối_H1.png);
+}
+.footer{
+	margin-top: 100px;
+}
+div.danhmuc{
+	margin-left: 40px;
+	width: 310px;
+	margin-top: 50px;
+}
+div.danhmuc div{
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+}
+div.danhmuc a{
+	text-decoration: none;
+	color:#2B2829;
+	font-size: 17px;
+}
+div.danhmuc .i{
+	margin-left: 50px;
+}
+div.danhmuc a:hover{
+	color: #BFA640;
+}
+.dm{
+	text-align: center;
+	font-size: 25px;
+}
+div.i{
+	margin-left: 50px;
+}
