@@ -1,0 +1,298 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	font-family: Playfair Display;
+	
+}
+#container {
+	background-color: #F5F5F5;
+}
+#name {
+	font-size: 23px;
+	font-weight: 700;
+}
+#tieude {
+	padding-left: 50px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	height: 50px;
+	
+	line-height: 50px;
+}
+#header {
+	height: 150px;
+	background-color: #231F20;
+
+}
+.ch {
+	padding-left: 50px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	height: 50px;
+	line-height: 50px;
+}
+.mon {
+	margin-top: 1px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	height: 125px;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+#body li {
+	list-style-type: none;
+}
+#body {
+	min-height: 415px;
+	position: relative;
+}
+#tieude-sp {
+	float: left;
+	width: 350px;
+}
+#sp {
+	float: left;
+	width: 350px;
+	
+}#sp img {
+	margin-left: 20px;
+}
+#tieude-sl {
+	text-align: center;
+	
+	list-style-type: none;
+	display: inline-table;
+	
+}
+#tieude-sl li {
+	display: inline-table;
+	width: 200px;
+}
+
+#sl {
+	text-align: center;
+	margin-top: 40px;
+	list-style-type: none;
+	display: inline-table;
+	width: 800px;
+}
+#sl li {
+	display: inline-table;
+	width: 200px;
+}
+
+#thanhtoan {
+	box-shadow: 0px -2px 1px 0px #F5F5F5;
+	margin-top: 5px;
+	padding-left: 51px;
+	margin-right: 50px;
+	height:70px;
+	width: 1150px;
+	float: right;
+	background-color: white;
+	position: sticky;
+	bottom: 0px;
+	margin-bottom: 100px;
+
+	
+}
+#tatca {
+	line-height: 70px;
+}
+
+#thanhtoan > div{
+	width: 500px;
+	float: right;
+	padding-right: 50px;
+}
+
+#slg {
+	width: 50px;
+}
+#ten {
+	padding-left: 10px;
+	width: 200px;
+	color: black;
+	font-weight: 500;
+	position: absolute;
+	text-decoration: none;
+	
+}
+#button {
+	width: 30px;
+}
+#tong {
+	float: left;
+	width: 290px;
+	line-height: 70px;
+	text-align: right;
+	margin-right: 10px;
+}
+#datmua {
+
+	margin-top: 15px;
+	width: 200px;
+	height: 40px;
+	float: right;
+	background-color: #231F20;
+	text-align: center;
+}
+#dat {
+	padding-top: 15px;
+	text-decoration: none;
+	color: #BFA640;
+	
+	line-height: 40px;
+}
+#sotien {
+	color: #BFA640;
+}
+#d {
+	color: #BFA640;
+}
+#tongtien {
+	color: #BFA640;
+}
+#check {
+	position: absolute;
+	margin-top: 45px;
+	width: 20px;
+	height: 20px;
+	color: red;
+
+}#checkall {
+	width: 20px;
+	height: 20px;
+	padding-bottom: 10px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+#abc {
+	float: left;
+	position: relative;
+	width: 16px;
+	height: 100px;
+	
+}
+#all {
+	float: left;
+	position: relative;
+	width: 16px;
+	height: 70px;
+	margin-right: 20px;
+}
+
+#span:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+
+    position: absolute;
+	margin-bottom: 40px;
+	
+	background-color: white;
+    
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+input[type=checkbox]:checked + #label #span:before {
+    content: "\2714";
+    font-size: 15px;
+    color: #BFA640;
+    text-align: center;
+    line-height: 17px;
+    background-color: #321F20;
+}
+#spanall:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+
+    position: absolute;
+	margin-bottom: 25px;
+	background-color: white;
+    
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+input[type=checkbox]:checked + #labelall #spanall:before {
+    content: "\2714";
+    font-size: 15px;
+    color: #BFA640;
+    text-align: center;
+    line-height: 17px;
+    background-color: #321F20;
+}
+#ten:hover, #xoa:hover {
+	cursor: pointer;
+	color: #BFA640;
+}
+#anh:hover {
+	cursor: pointer;
+}
+
+input[type = button]{
+	display: none;
+}
+
+table, tr, td {
+	border: solid 1px gray;
+	border-collapse: collapse;
+}
+table {
+	margin-left: 45px;
+
+}
+
+td {
+	width: 30px;
+	height: 25px;
+	line-height: 25px;
+
+}
+#tru:hover, #cong:hover {
+	cursor: pointer;
+	color: #BFA640;
+}
+#footer {
+	margin-top: 200px;
+	width: 1300px;
+	height: 100px;
+	background-color: #231F20;
+	bottom: 0px;
+}
+#trong {
+	padding-top: 140px;
+	text-align: center;
+	height: 300px;
+	background-color: #F5F5F5;
+}
+#trong p{
+	text-align: center;
+	
+}
+#chonmon {
+	margin-top: 5px;
+	background-color: #231F20;
+	color: #BFA640;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-left: 550px;
+}
