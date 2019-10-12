@@ -11,6 +11,7 @@
 #name {
 	font-size: 23px;
 	font-weight: 700;
+	color: #BFA640;
 }
 #tieude {
 	padding-left: 50px;
@@ -23,16 +24,16 @@
 	line-height: 50px;
 }
 #header {
+	margin-bottom: 20px;
 	height: 150px;
-	background-color: #231F20;
-
+	background-color: white;
 }
 .ch {
 	padding-left: 50px;
 	margin-top: 10px;
 	margin-left: 50px;
 	margin-right: 50px;
-	background-color: white;
+	background-color: #231F20;
 	height: 50px;
 	line-height: 50px;
 }
@@ -55,6 +56,9 @@
 #tieude-sp {
 	float: left;
 	width: 350px;
+}
+#tieude-sp label {
+	margin-left: 35px;
 }
 #sp {
 	float: left;
@@ -271,14 +275,12 @@ td {
 	color: #BFA640;
 }
 #footer {
-	margin-top: 200px;
-	width: 1300px;
-	height: 100px;
-	background-color: #231F20;
+	margin-top: 150px;
+	
 	bottom: 0px;
 }
 #trong {
-	padding-top: 140px;
+	padding-top: 100px;
 	text-align: center;
 	height: 300px;
 	background-color: #F5F5F5;

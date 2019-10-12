@@ -111,6 +111,7 @@ checkall.onchange = function(){
 		for(var i =0; i<check.length; i++){
 			check[i].checked = false;
 			check[i].onchange();
+			tongtien.innerHTML = 0;
 		}
 	}
 }
