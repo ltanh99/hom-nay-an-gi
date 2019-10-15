@@ -48,10 +48,10 @@ for( var i = 0; i<check.length; i++){
 		}
 
 	}
-	tru[i].onclick = function(){
+	tru[i].parentElement.onclick = function(){
 		
 		for(var i = 0; i< tru.length; i++){
-			if(tru[i] == this){
+			if(tru[i].parentElement == this){
 				soluong[i].innerHTML = parseInt(soluong[i].innerHTML) - 1;
 				tongmon.innerHTML = parseInt(tongmon.innerHTML) - 1;
 				sotien[i].innerHTML = parseInt(dongia[i].innerHTML) * parseInt(soluong[i].innerHTML);
@@ -63,9 +63,9 @@ for( var i = 0; i<check.length; i++){
 			}
 		}
 	}
-	cong[i].onclick = function(){
+	cong[i].parentElement.onclick = function(){
 		for(var i = 0; i< cong.length; i++){
-			if(cong[i] == this){
+			if(cong[i].parentElement == this){
 				soluong[i].innerHTML = parseInt(soluong[i].innerHTML) + 1;
 				tongmon.innerHTML = parseInt(tongmon.innerHTML) + 1;
 				sotien[i].innerHTML = parseInt(dongia[i].innerHTML) * parseInt(soluong[i].innerHTML);
@@ -75,6 +75,21 @@ for( var i = 0; i<check.length; i++){
 			}
 		}
 	}
+	tru[i].onclick = function(){
+		for(var i = 0; i<tru.length;i++){
+			if(tru[i] == this){
+				cong[i].parentElement.onclick();
+			}
+		}
+	}
+	cong[i].onclick = function(){
+		for(var i = 0; i<cong.length;i++){
+			if(cong[i] == this){
+				tru[i].parentElement.onclick();
+			}
+		}
+	}
+	
 	button[i].onclick = function(){
 		dem--;
 		if(dem == 0){
@@ -103,6 +118,7 @@ checkall.onchange = function(){
 
 	var check = document.getElementsByName('check');
 	if(checkall.checked){
+		tongtien.innerHTML = 0;
 		for(var i =0; i<check.length; i++){
 			check[i].checked = true;
 			check[i].onchange();

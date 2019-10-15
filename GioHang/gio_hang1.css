@@ -3,6 +3,7 @@
 	padding: 0px;
 	font-size: 20px;
 	font-family: Playfair Display;
+	color: #231F20;
 	
 }
 #container {
@@ -154,7 +155,7 @@
 	
 	line-height: 40px;
 }
-#sotien {
+#sotien span{
 	color: #BFA640;
 }
 #d {
@@ -255,7 +256,7 @@ input[type = button]{
 	display: none;
 }
 
-table, tr, td {
+table, tr, td{
 	border: solid 1px gray;
 	border-collapse: collapse;
 }
@@ -264,13 +265,19 @@ table {
 
 }
 
-td {
+td div{
 	width: 30px;
 	height: 25px;
 	line-height: 25px;
 
 }
-#tru:hover, #cong:hover {
+#tru, #cong {
+	color: gray;
+}
+td div:hover {
+	cursor: pointer;
+}
+td div:hover #tru, td div:hover #cong{
 	cursor: pointer;
 	color: #BFA640;
 }
