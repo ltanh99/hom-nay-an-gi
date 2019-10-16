@@ -12,7 +12,7 @@ var tongtien = document.getElementById('tongtien');
 var button = document.getElementsByName('button');
 var thanhtoan = document.getElementById('thanhtoan');
 var cuahang = document.getElementById('cuahang');
-var tieude = document.getElementById('tieude');
+var menu = document.getElementById('menu');
 var trong = document.getElementById("trong");
 trong.style.display = "none";
 var dem = button.length;
@@ -20,7 +20,6 @@ tongmon.innerHTML = 0;
 tongtien.innerHTML = 0;
 for( var i = 0; i<check.length; i++){
 	tongmon.innerHTML = parseInt(tongmon.innerHTML) + parseInt(soluong[i].innerHTML);
-	//button[i].parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
 	check[i].onchange = function(){
 		if(this.checked){
 			//tongtien
@@ -95,7 +94,7 @@ for( var i = 0; i<check.length; i++){
 		if(dem == 0){
 			thanhtoan.style.display = "none";
 			cuahang.style.display = "none";
-			tieude.style.display = "none";
+			menu.style.display = "none";
 			trong.style.display  ="";
 		}
 	
