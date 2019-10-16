@@ -5,6 +5,16 @@
 div {
     display: block;
 }
+body{
+	margin: 0;
+    font-family: Noto Sans,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #464646;
+    text-align: left;
+    background-color: #f2f2f2;
+}
 #container{
 	background-color: #f2f2f2;
 	padding-top: 30px;
@@ -19,6 +29,7 @@ div {
 	background-color: #f2f2f2;
 	border: solid 1px black;
 	font-size: 14px;
+	margin-bottom: 30px;
 }
 
 #menu{
@@ -36,16 +47,16 @@ div {
 
 #menu li{
 	display: inline-block;
-	
-	line-height: 15px;
+	line-height: 20px;
 	/*margin: 3px;*/
 	width: 228px;
     padding: 0 5px 5px 0;
 }
 
+
 #menu a{
 	text-align: center;
-	color: black;
+	color: #BFA640;
 	text-decoration: none;
 	display: block;
 	width:228px;
@@ -125,6 +136,12 @@ div {
 	margin-left: -5px;
 }
 
+#li:hover{
+	border-bottom: solid 2px #BFA640;  
+}
+#menu-bar{
+	background-color: black;
+}
 #menu-bar a{
 	text-decoration: none;
 	display: block;
@@ -154,8 +171,9 @@ div {
 
 }
 #menu-bar ul li #li-detail span{
-	color: #d02128;
-		text-transform: uppercase;
+	
+	color: #BFA640;
+	text-transform: uppercase;
 	font-weight: bold;
 }
 
@@ -170,15 +188,180 @@ div {
 #logo-img{
 	display: block;
     float: left;
-    width: 60px;
+    width: 100px;
     height: 40px;
     background: #ddd;
     margin: 12px 15px 0 0;
     border-radius: 5px;
 }
 #nav-box{
-	float: right;
-    padding-left: 10px;
+	float: left;
+    padding-left: 70px;
     width: 980px;
+}
+
+#search-banner{
+	color: #fff;
+    background: url(https://thesra.org/wp-content/uploads/2018/06/Vegware_suppliers_header_no_logo-1600x500.jpg) no-repeat 60%;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+#search{
+	width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#logo{
+	text-align: center;
+    width: 500px;
+    height: 250px;
+    margin-left: 300px;
+    line-height: 127px;
+    position: relative;
+}
+
+#search-title{
+
+}
+
+.para{
+    align-items: center!important;
+    justify-content: space-between!important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+#title-search{
+	flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+#title-content{
+	font-size: 28px;
+    margin-top: 26px;
+    margin-bottom: 17px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #BFA640;
+    display: block;
+    font-weight: none;
+}
+
+#contact{
+	    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    min-width: 0;
+}
+
+#info-contact{
+	font-size: 16px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+#search-bar{
+	display: flex;
+    flex-wrap: wrap
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#search-bar-input-text{
+    padding-right: 0;
+    padding-left: 0;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    min-width: 0;
+    width: 100%;
+}
+
+#search-bar-group-input{
+    position: relative;
+}
+
+.search-bar-detail{
+	height: 65px;
+    border: 0;
+    padding: 20px;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    padding: .23rem .6rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    color: #6d6f71;
+    background-color: #fff;
+    background-clip: padding-box;
+    overflow: visible;
+}
+
+#search-bar-button{
+	flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    position: relative;
+    
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    min-width: 0;
+}
+
+.btn{
+	cursor: pointer;
+	    color: #BFA640;
+    background-color: #0288d1;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #0288d1;
+    border-radius: 6px;
+    padding: .23rem .6rem;
+    font-size: .875rem;
+    line-height: 1.5;
+}
+
+.btn-find{
+	font-size: 18px;
+    font-weight: 600;
+    border-radius: 0;
+    background-color: black;
+    border-color: black;
+    height: 100%;
+    width: 200px;
+}
+
+.phone-num{
+	color: black;
+}
+
+.time{
+	color: black;
 }
 

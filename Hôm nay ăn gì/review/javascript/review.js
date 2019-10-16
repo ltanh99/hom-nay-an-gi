@@ -49,5 +49,26 @@ function but4click()
 	}
 }
 
+function ac(value) { 
+        document.getElementById('datalist').innerHTML = ''; 
+         //setting datalist empty at the start of function 
+         //if we skip this step, same name will be repeated 
+           
+         l=value.length; 
+         //input query length 
+     for (var i = 0; i<arr_drinks_res.length; i++) { 
+         if(((arr_drinks_res[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
+         { 
+             //comparing if input string is existing in tags[i] string 
+  			console.log(arr_drinks_res[i]);	
+             var node = document.createElement("option"); 
+             var val = document.createTextNode(arr_drinks_res[i]); 
+              node.appendChild(val); 
+  
+               document.getElementById("datalist").appendChild(node); 
+                   //creating and appending new elements in data list 
+             } 
+         } 
+     } 
 
 
