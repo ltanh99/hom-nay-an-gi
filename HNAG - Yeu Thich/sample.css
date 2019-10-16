@@ -1,0 +1,459 @@
+ html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+background: red;
+color: white;
+width: 70%;
+height: 10%;
+float: left;
+padding: 0.5em;
+position: relative;
+} 
+
+#under_content {
+background: blue;
+color: white;
+width: 70%;
+height: 10%;
+float: left;
+padding: 0.5em;
+position: relative;
+} 
+
+#main_content {
+background: white;
+width: 70%;
+height: 10%;
+float: left;
+padding: 0.5em;
+position: relative;
+} 
+
+#sidebar {
+background: yellow;
+color: white;
+width: 26%;
+float: right;
+padding: 0.5em;
+height: 10%;
+}
+
+.text{
+  font-size: 100%;
+  word-spacing: 6px;
+  text-align: center;
+
+}
+
+.inner-arrow { 
+  font-size: 18px;
+  border: #ff0000 solid 1px;  
+  background-repeat: no-repeat; 
+  background-size: 10%;
+}
+
+.slider-container{
+  height: 60%;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+  transition: all .3s ease;
+  &:hover {
+    background: red;
+  }
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+  resize: both;
+  max-width: 100%;
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+
+.slide-1 {
+  background-image: url("a1.jpeg");
+}
+.slide-2 {
+  background-image: url("a2.jpeg");
+}
+.slide-3 {
+  background-image: url("a3.jpeg");
+}
+.slide-4 {
+  background-image: url("a4.jpeg");
+}
+.slide-5 {
+  background-image: url("a5.jpeg");
+}
+.slide-6 {
+  background-image: url("a7.jpeg");
+}
+
+.penci-sidebar-content .widget {
+  width: 100%;
+  margin-right: 0;
+  float: none;
+  margin-bottom: 60px;
+  clear: both;
+}
+.penci-sidebar-content img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.penci-sidebar-content .widget-title {
+  color: #313131;
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+  text-align: center;
+  line-height: 1.3;
+  background: #fff;
+}
+
+/* Style widget heading styles */
+.penci-sidebar-content.pcalign-left .widget-title {
+  text-align: left;
+}
+.penci-sidebar-content.pcalign-right .widget-title {
+  text-align: right;
+}
+.penci-sidebar-content.style-2 .widget-title,
+.penci-sidebar-content.style-3 .widget-title,
+.penci-sidebar-content.style-4 .widget-title,
+.penci-sidebar-content.style-5 .widget-title,
+.penci-sidebar-content.style-6 .widget-title,
+.penci-sidebar-content.style-7 .widget-title,
+.penci-sidebar-content.style-8 .widget-title,
+.penci-sidebar-content.style-9 .widget-title,
+.penci-homepage-title.style-2,
+.penci-homepage-title.style-3,
+.penci-homepage-title.style-4,
+.penci-homepage-title.style-5,
+.penci-homepage-title.style-6,
+.penci-homepage-title.style-7,
+.penci-homepage-title.style-8,
+.penci-homepage-title.style-9 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+.penci-homepage-title.style-2:before,
+.penci-sidebar-content.style-2 .penci-border-arrow:before {
+  bottom: -4px;
+}
+.penci-border-arrow.penci-homepage-title.style-2:after,
+.penci-sidebar-content.style-2 .penci-border-arrow:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  bottom: -2px;
+  left: 50%;
+  top: auto;
+  right: auto;
+  border-width: 6px;
+  border-bottom: 0;
+  margin-left: -6px;
+  z-index: 5;
+  border-top-color: #fff;
+  background: none !important;
+}
+.penci-homepage-title.style-2 .inner-arrow,
+.penci-sidebar-content.style-2 .penci-border-arrow .inner-arrow{
+  border-width: 2px;
+}
+.penci-sidebar-content.style-1.pcalign-left .penci-border-arrow:before,
+.penci-sidebar-content.style-2.pcalign-left .penci-border-arrow:before,
+.penci-sidebar-content.style-2.pcalign-left .penci-border-arrow:after,
+.penci-homepage-title.style-1.pcalign-left:before,
+.penci-homepage-title.style-2.pcalign-left:before,
+.penci-homepage-title.style-2.pcalign-left:after {
+  left: 19px;
+}
+.penci-sidebar-content.style-1.pcalign-right .penci-border-arrow:before,
+.penci-sidebar-content.style-2.pcalign-right .penci-border-arrow:before,
+.penci-sidebar-content.style-2.pcalign-right .penci-border-arrow:after,
+.penci-homepage-title.style-1.pcalign-right:before,
+.penci-homepage-title.style-2.pcalign-right:before,
+.penci-homepage-title.style-2.pcalign-right:after{
+  left: auto;
+  right: 19px;
+}
+.penci-homepage-title.style-1.pcalign-center:before,
+.penci-homepage-title.style-2.pcalign-center:before,
+.penci-homepage-title.style-2.pcalign-center:after{
+  left: 50%;
+  margin-left: -6px;
+}
+
+/* Style 3 */
+.penci-sidebar-content.style-3 .penci-border-arrow:before,
+.penci-sidebar-content.style-3 .penci-border-arrow:after,
+.penci-sidebar-content.style-4 .penci-border-arrow:before,
+.penci-sidebar-content.style-4 .penci-border-arrow:after,
+.penci-sidebar-content.style-5 .penci-border-arrow:before,
+.penci-sidebar-content.style-5 .penci-border-arrow:after,
+.penci-sidebar-content.style-6 .penci-border-arrow:before,
+.penci-sidebar-content.style-6 .penci-border-arrow:after,
+.penci-sidebar-content.style-7 .penci-border-arrow:before,
+.penci-sidebar-content.style-7 .penci-border-arrow:after,
+.penci-sidebar-content.style-8 .penci-border-arrow:before,
+.penci-sidebar-content.style-8 .penci-border-arrow:after,
+.penci-sidebar-content.style-9 .penci-border-arrow:before,
+.penci-sidebar-content.style-9 .penci-border-arrow:after,
+.penci-homepage-title.style-3:before,
+.penci-homepage-title.style-3:after,
+.penci-homepage-title.style-4:before,
+.penci-homepage-title.style-4:after,
+.penci-homepage-title.style-5:before,
+.penci-homepage-title.style-5:after,
+.penci-homepage-title.style-6:before,
+.penci-homepage-title.style-6:after,
+.penci-homepage-title.style-7:before,
+.penci-homepage-title.style-7:after,
+.penci-homepage-title.style-8:before,
+.penci-homepage-title.style-8:after,
+.penci-homepage-title.style-9:before,
+.penci-homepage-title.style-9:after {
+  content: none;
+}
+.penci-sidebar-content.style-3.pcalign-left .penci-border-arrow .inner-arrow,
+.penci-sidebar-content.style-3.pcalign-center .penci-border-arrow .inner-arrow,
+.penci-homepage-title.style-3.pcalign-left .inner-arrow,
+.penci-homepage-title.style-3.pcalign-center .inner-arrow {
+  border-left-width: 6px;
+}
+.penci-sidebar-content.style-3.pcalign-right .penci-border-arrow .inner-arrow,
+.penci-homepage-title.style-3.pcalign-right .inner-arrow {
+  border-right-width: 6px;
+}
+
+/* Style 4 */
+.penci-homepage-title.style-4,
+.penci-sidebar-content.style-4 .penci-border-arrow {
+  overflow: hidden;
+}
+.penci-homepage-title.style-4 .inner-arrow,
+.penci-sidebar-content.style-4 .penci-border-arrow .inner-arrow {
+  padding: 0 12px;
+  border: none;
+  display: inline-block;
+  background: none !important;
+}
+.penci-homepage-title.style-4.pcalign-left .inner-arrow,
+.penci-sidebar-content.style-4.pcalign-left .penci-border-arrow .inner-arrow {
+  padding-left: 0;
+}
+.penci-homepage-title.style-4.pcalign-right .inner-arrow,
+.penci-sidebar-content.style-4.pcalign-right .penci-border-arrow .inner-arrow {
+  padding-right: 0;
+}
+.penci-sidebar-content.style-4 .penci-border-arrow .inner-arrow:before,
+.penci-sidebar-content.style-4 .penci-border-arrow .inner-arrow:after,
+.penci-homepage-title.style-4 .inner-arrow:before,
+.penci-homepage-title.style-4 .inner-arrow:after {
+  position: absolute;
+  content: "";
+  width: 1000px;
+  height: 0;
+  top: 50%;
+  left: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  z-index: 1;
+  opacity: 0.5;
+}
+.penci-homepage-title.style-4 .inner-arrow:before,
+.penci-sidebar-content.style-4 .penci-border-arrow .inner-arrow:before {
+  left: auto;
+  right: 100%;
+}
+
+/* Style 5 */
+.penci-homepage-title.style-5,
+.penci-sidebar-content.style-5 .penci-border-arrow,
+.penci-homepage-title.style-7,
+.penci-sidebar-content.style-7 .penci-border-arrow,
+.penci-homepage-title.style-9,
+.penci-sidebar-content.style-9 .penci-border-arrow{
+  border-bottom: 2px solid #313131;
+}
+.penci-homepage-title.style-5 .inner-arrow,
+.penci-sidebar-content.style-5 .penci-border-arrow .inner-arrow {
+  display: inline-block;
+  border-bottom-width: 2px;
+  margin-bottom: -2px;
+}
+.penci-homepage-title.style-5.pcalign-left .inner-arrow,
+.penci-sidebar-content.style-5.pcalign-left .penci-border-arrow .inner-arrow{
+  border-left-width: 2px;
+}
+.penci-homepage-title.style-5.pcalign-right .inner-arrow,
+.penci-sidebar-content.style-5.pcalign-right .penci-border-arrow .inner-arrow{
+  border-right-width: 2px;
+}
+
+/* Style 6 */
+.penci-homepage-title.style-6 .inner-arrow,
+.penci-sidebar-content.style-6 .penci-border-arrow .inner-arrow{
+  background: none !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Style 7 */
+.penci-homepage-title.style-7,
+.penci-sidebar-content.style-7 .penci-border-arrow {
+  border-bottom-width: 3px;
+}
+.penci-homepage-title.style-9,
+.penci-sidebar-content.style-9 .penci-border-arrow {
+  border-bottom-width: 1px;
+}
+.penci-homepage-title.style-7 .inner-arrow,
+.penci-sidebar-content.style-7 .penci-border-arrow .inner-arrow,
+.penci-homepage-title.style-9 .inner-arrow,
+.penci-sidebar-content.style-9 .penci-border-arrow .inner-arrow {
+  background: none !important;
+  padding: 0 0 8px 0;
+  border: none;
+}
+.penci-homepage-title.style-7 .inner-arrow:before,
+.penci-sidebar-content.style-7 .penci-border-arrow .inner-arrow:before,
+.penci-homepage-title.style-9 .inner-arrow:before,
+.penci-sidebar-content.style-9 .penci-border-arrow .inner-arrow:before{
+  content: '';
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  bottom: -3px;
+  background: #6eb48c;
+}
+.penci-homepage-title.style-9 .inner-arrow:before,
+.penci-sidebar-content.style-9 .penci-border-arrow .inner-arrow:before {
+  bottom: -2px;
+}
+.penci-homepage-title.style-7.pcalign-center .inner-arrow:before,
+.penci-sidebar-content.style-7.pcalign-center .penci-border-arrow .inner-arrow:before,
+.penci-homepage-title.style-9.pcalign-center .inner-arrow:before,
+.penci-sidebar-content.style-9.pcalign-center .penci-border-arrow .inner-arrow:before{
+  left: 50%;
+  margin-left: -20px;
+}
+.penci-homepage-title.style-7.pcalign-left .inner-arrow:before,
+.penci-sidebar-content.style-7.pcalign-left .penci-border-arrow .inner-arrow:before,
+.penci-homepage-title.style-9.pcalign-left .inner-arrow:before,
+.penci-sidebar-content.style-9.pcalign-left .penci-border-arrow .inner-arrow:before{
+  left: 0;
+  margin: 0;
+}
+.penci-homepage-title.style-7.pcalign-right .inner-arrow:before,
+.penci-sidebar-content.style-7.pcalign-right .penci-border-arrow .inner-arrow:before,
+.penci-homepage-title.style-9.pcalign-right .inner-arrow:before,
+.penci-sidebar-content.style-9.pcalign-right .penci-border-arrow .inner-arrow:before{
+  right: 0;
+  margin: 0;
+}
+
+/* Style 8 */
+.penci-homepage-title.style-8 .inner-arrow,
+.penci-sidebar-content.style-8 .penci-border-arrow .inner-arrow {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+  border: none !important;
+  padding-top: 13px;
+  padding-bottom: 12px;
+}
+.penci-homepage-title.style-8.pcalign-left .inner-arrow,
+.penci-sidebar-content.style-8.pcalign-left .penci-border-arrow .inner-arrow {
+  background-position: left center;
+}
+.penci-homepage-title.style-8.pcalign-right .inner-arrow,
+.penci-sidebar-content.style-8.pcalign-right .penci-border-arrow .inner-arrow {
+  background-position: right center;
+}
+.penci-homepage-title.style-8.pcalign-center .inner-arrow,
+.penci-sidebar-content.style-8.pcalign-center .penci-border-arrow .inner-arrow {
+  background-position: center center;
+}
+
+/** Widget List **/
+.widget ul {
+  list-style: none;
+}
+.widget ul ul {
+  padding-top: 11px;
+  margin-top: 12px;
+  border-top: 1px solid #DEDEDE;
+  padding-left: 20px;
+}
+.widget ul li {
+  margin-bottom: 11px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #DEDEDE;
+  font-size: 14px;
+  color: #888888;
+}
+.widget ul > li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.widget ul li a {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.4;
+}
+.widget a {
+  color: #313131;
+}
+.widget a:hover {
+  color: #6eb48c;
+  text-decoration: underline;
+}
+.widget.widget_archive label.screen-reader-text,
+.widget.widget_categories label.screen-reader-text {
+  display: none;
+}

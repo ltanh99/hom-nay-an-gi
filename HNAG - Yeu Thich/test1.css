@@ -1,0 +1,6 @@
+element.style {
+    transform: none;
+}
+html, body {
+    -webkit-font-smoothing: antialiased;
+}
