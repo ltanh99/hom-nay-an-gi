@@ -8,6 +8,12 @@
 #container {
 	background-color: #F5F5F5;
 }
+/* header */
+#header {
+	margin-bottom: 20px;
+	height: 150px;
+	background-color: white;
+}
 #logo {
 	float: left;
 	margin-left: 25px;
@@ -42,6 +48,19 @@
 	text-align: center;
 	line-height: 35px
 }
+/* body */
+#body {
+	
+	min-height: 415px;
+	position: relative;
+}
+#body li {
+	list-style-type: none;
+	width: 1150px;
+}
+#body > div {
+}
+
 #name {
 	font-size: 23px;
 	font-weight: 700;
@@ -57,11 +76,7 @@
 	width: 1150px;
 	line-height: 50px;
 }
-#header {
-	margin-bottom: 20px;
-	height: 150px;
-	background-color: white;
-}
+
 .ch {
 	padding-left: 50px;
 	margin-top: 10px;
@@ -81,17 +96,7 @@
 	padding-top: 25px;
 	padding-left: 50px;
 }
-#body li {
-	list-style-type: none;
-	width: 1150px;
-}
-#body > div {
-}
-#body {
-	
-	min-height: 415px;
-	position: relative;
-}
+
 #menu-sp {
 	float: left;
 	width: 350px;
@@ -127,29 +132,6 @@
 	display: inline-table;
 	width: 200px;
 }
-#thanhtoan {
-	box-shadow: 0px -2px 1px 0px #F5F5F5;
-	margin-top: 5px;
-	padding-left: 51px;
-	margin-left: 50px;
-	margin-right: 50px;
-	height:70px;
-	width: 1150px;
-	background-color: white;
-	position: sticky;
-	bottom: 0px;
-	margin-bottom: 100px;
-}
-#tatca {
-	line-height: 70px;
-}
-
-#thanhtoan > div{
-	width: 500px;
-	float: right;
-	padding-right: 50px;
-}
-
 #slg {
 	width: 50px;
 }
@@ -161,30 +143,12 @@
 	position: absolute;
 	text-decoration: none;
 }
-#button {
-	width: 30px;
-}
-#tong {
-	float: left;
-	width: 290px;
-	line-height: 70px;
-	text-align: right;
-	margin-right: 10px;
-}
-#datmua {
-	margin-top: 15px;
-	width: 200px;
-	height: 40px;
-	float: right;
-	background-color: #231F20;
-	text-align: center;
-}
-#dat {
-	padding-top: 15px;
-	text-decoration: none;
+#ten:hover, #xoa:hover {
+	cursor: pointer;
 	color: #BFA640;
-	
-	line-height: 40px;
+}
+#anh:hover {
+	cursor: pointer;
 }
 #sotien span{
 	color: #BFA640;
@@ -192,21 +156,22 @@
 #d {
 	color: #BFA640;
 }
-#tongtien {
-	color: #BFA640;
+#button {
+	width: 30px;
 }
+/* input check & button */
 #check {
 	position: absolute;
 	margin-top: 45px;
 	width: 20px;
 	height: 20px;
 	color: red;
-}#checkall {
+}
+#checkall {
 	width: 20px;
 	height: 20px;
 	padding-bottom: 10px;
 }
-
 input[type=checkbox] {
     display: none;
 }
@@ -270,14 +235,6 @@ input[type=checkbox]:checked + #labelall #spanall:before {
     line-height: 17px;
     background-color: #321F20;
 }
-#ten:hover, #xoa:hover {
-	cursor: pointer;
-	color: #BFA640;
-}
-#anh:hover {
-	cursor: pointer;
-}
-
 input[type = button]{
 	display: none;
 }
@@ -307,11 +264,55 @@ td div:hover #tru, td div:hover #cong{
 	cursor: pointer;
 	color: #BFA640;
 }
-#footer {
-	margin-top: 150px;
-	
+/* thanh-toan*/
+#thanhtoan {
+	box-shadow: 0px -2px 1px 0px #F5F5F5;
+	margin-top: 5px;
+	padding-left: 51px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height:70px;
+	width: 1150px;
+	background-color: white;
+	position: sticky;
 	bottom: 0px;
+	margin-bottom: 80px;
 }
+#tatca {
+	line-height: 70px;
+}
+
+#thanhtoan > div{
+	width: 500px;
+	float: right;
+	padding-right: 50px;
+}
+#tong {
+	float: left;
+	width: 290px;
+	line-height: 70px;
+	text-align: right;
+	margin-right: 10px;
+}
+#datmua {
+	margin-top: 15px;
+	width: 200px;
+	height: 40px;
+	float: right;
+	background-color: #231F20;
+	text-align: center;
+}
+#dat {
+	padding-top: 15px;
+	text-decoration: none;
+	color: #BFA640;
+	
+	line-height: 40px;
+}
+#tongtien {
+	color: #BFA640;
+}
+/* gio-hng-trong*/
 #trong {
 	padding-top: 100px;
 	text-align: center;
@@ -330,4 +331,137 @@ td div:hover #tru, td div:hover #cong{
 	height: 40px;
 	text-align: center;
 	margin-left: 550px;
+}
+/* css cho footer  */
+.footer2{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    background: #dfdede;
+  }
+.footer2 .trai{
+    width: 25%;
+    margin-left: 100px;
+}
+.footer2 .trai .anh{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+.footer2 .giua{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 50%;
+    margin-right: 100px;
+}
+.footer2 .giua .about{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.giua p{
+    font-size: 15px;
+}
+.footer2 .giua >p{
+    width:100%;
+}
+.footer2 .phai{
+    width:25%;
+    margin-top: 20px;
+}
+.footer2 .phai .follow{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer2 .phai .list{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: -40px;
+}
+.footer2 .phai .list >li{
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.footer2 .phai .fa{
+    color: #535050;
+}
+.list div{
+    font-size: 20px;
+}
+
+
+/* goi-y*/
+#menu-goi-y{
+
+	/*height: 570px;*/
+	position: relative;
+   width: 1200;	
+   padding-left: 5px;	
+}
+#menu-goi-y ul{
+	list-style-type: none;
+	margin-left: 50px;	
+	margin-right: 50px;	
+}
+#menu-goi-y ul > span {
+	text-align: left;
+	color: #231F20;
+}
+
+#menu-goi-y li{
+	display: inline-block;
+	line-height: 20px;
+	/*margin: 3px;*/
+	width: 230px;
+    padding: 0 5px 5px 0;
+   margin-top: 5px;		
+}
+
+
+#menu-goi-y a{
+	text-align: center;
+	color: #BFA640;
+	text-decoration: none;
+	display: block;
+	width:228px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#menu-goi-y a:hover{
+	background-color: #f1f1f1;
+	color: #000000;
+}
+
+#menu-goi-y li{
+	position: relative;
+}
+.food{
+	/*border: solid 1px gray;*/
+	background-color: white;
+	display: block;
+    position: relative;
+    float: left;
+    width: 228px;
+    padding: 0 0px 0px 0;
+}
+.avt{
+	display: block;
+    float: left;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    overflow: hidden;
+
+}
+.img{
+	margin-left: : 5px;
+	display: block;
+    float: left;
+    width: 100%;
+    height: 142px;
+    border-radius: 0;
+    
 }

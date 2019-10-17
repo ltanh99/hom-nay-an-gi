@@ -1,7 +1,6 @@
 
 const checkall = document.getElementById('checkall');
 var check = document.getElementsByName('check');
-
 var dongia = document.getElementsByName('dongia');
 var soluong = document.getElementsByName('soluong');
 var sotien = document.getElementsByName('sotien');
