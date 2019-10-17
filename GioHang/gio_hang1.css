@@ -54,7 +54,7 @@
 	margin-right: 50px;
 	background-color: white;
 	height: 50px;
-	
+	width: 1150px;
 	line-height: 50px;
 }
 #header {
@@ -70,6 +70,7 @@
 	background-color: #231F20;
 	height: 50px;
 	line-height: 50px;
+	width: 1150px;
 }
 .mon {
 	margin-top: 1px;
@@ -82,8 +83,12 @@
 }
 #body li {
 	list-style-type: none;
+	width: 1150px;
+}
+#body > div {
 }
 #body {
+	
 	min-height: 415px;
 	position: relative;
 }
@@ -126,10 +131,10 @@
 	box-shadow: 0px -2px 1px 0px #F5F5F5;
 	margin-top: 5px;
 	padding-left: 51px;
+	margin-left: 50px;
 	margin-right: 50px;
 	height:70px;
 	width: 1150px;
-	float: right;
 	background-color: white;
 	position: sticky;
 	bottom: 0px;
