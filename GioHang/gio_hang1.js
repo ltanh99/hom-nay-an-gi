@@ -21,7 +21,6 @@ for( var i = 0; i<check.length; i++){
 	tongmon.innerHTML = parseInt(tongmon.innerHTML) + parseInt(soluong[i].innerHTML);
 	check[i].onchange = function(){
 		if(this.checked){
-			//tongtien
 			for(var i=0; i<check.length; i++){
 				if(check[i] == this){
 				 tongtien.innerHTML = parseInt(tongtien.innerHTML) + parseInt(sotien[i].innerHTML);
@@ -46,6 +45,7 @@ for( var i = 0; i<check.length; i++){
 		}
 
 	}
+	
 	tru[i].parentElement.onclick = function(){
 		
 		for(var i = 0; i< tru.length; i++){
@@ -73,6 +73,7 @@ for( var i = 0; i<check.length; i++){
 			}
 		}
 	}
+
 	tru[i].onclick = function(){
 		for(var i = 0; i<tru.length;i++){
 			if(tru[i] == this){
@@ -129,22 +130,3 @@ checkall.onchange = function(){
 		}
 	}
 }
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-
