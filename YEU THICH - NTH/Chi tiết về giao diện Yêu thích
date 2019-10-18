@@ -1,0 +1,24 @@
+Mục Yêu thích lưu lại những bài viết, công thức, video về món ăn mà khách hàng cá nhân đã thích để dễ tìm kiếm lại cho những lần 
+sử dụng sau.
+Có 4 phần nội dung chính đó là:
+- Thanh Slidebar: dùng để show những bài viết/công thức/món ăn mà người dùng mới xem gần đây.
+- Món ăn yêu thích: show những bài viết/công thức/món ăn mà người dùng đã ấn nút thích ở trang chủ hoặc giỏ hàng.
+- Video yêu thích: show những video về món ăn, công thức mà người dùng đã ấn nút thích ở những bài viết có video kèm theo.
+- Danh mục: tóm tắt lại những mục đã có trong trang yêu thích, nhằm giúp người dùng truy cập đến những mục muốn chọn nhanh hơn 
+là tìm lần lượt trong phần Món ăn yêu thích.
+
+Ở đây cũng có lựa chọn OrderNow để khách hàng đến trực tiếp ô đặt hàng khi chọn được món ăn hôm nay mình muốn đặt.
+
+Phân tích các tính chất:
+- Balance: các shapes cân đối, có khoảng trống(negative space) phù hợp giữa các shapes, các shape tương tự nhau được đặt gần nhau,
+các luồng dữ liệu theo trình tự.
+- Rhythm: có sự lại cấu trúc các shape, các nội dung trình diễn. 
+- Harmony: 
+    + Có sự kết hợp các thành phần con để bổ sung ý nghĩa: bài viết trong phần món ăn yêu thích: ảnh liên quan, mục của bài viết,
+tên bài viết, tác giả, ngày viết bài, một vài giới thiệu tóm tắt về bài viết, các kết nối với tác giả bài viết khi người dùng cần. 
+    + Mũi tên nhỏ ở thanh Món ăn yêu thích có tính chất điều hướng mắt người đọc kéo xuống phía dưới để đọc tiếp.
+    + Khi di chuột vào thành slidebar thì sẽ hiện mũi tên giúp cho người dùng có thể tùy chọn sang trái, phải để xem thêm nhiều bài viết.
+- Dominance: tên của các bài viết được viết đậm, to hơn hẳn các thành phần bổ trợ còn lại. Nút Ordernow có màu vàng nổi bật lên trên nền
+trắng, có kích thước tương đối, thu hút người nhìn và xung quanh có các negative space phù hợp để làm nổi bật thành phần.
+- Aligment: Giao diện được căn thẳng theo chiều mắt nhìn hàng dọc và hàng ngang, các phần tử không bị tràn kích thước ra bên ngoài.
+
