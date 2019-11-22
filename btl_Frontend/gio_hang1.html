@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Giỏ hàng của bạn</title>
+		<meta charset = "utf-8"/>
+		<link rel="stylesheet" href ="gio_hang1.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id = "container">
+			
+			<div id = "header">
+				<img id = "logo" src = "logo_1.png" height = "150px"/>
+				<div id = "gio-hang">
+					<label>Giỏ Hàng</label>
+				</div>
+				<div id = "search">
+					<input type="textbox" name="">
+					<div>Search</div>
+				</div>
+			</div>
+			<div id = "body">
+				<div>
+					<div id = "cuahang" class = "ch">
+						<label id ="name" name = "cuahang">Tiệm Của Mốc_food&drink</label>
+					</div>
+					<div id = menu>
+						<div id = menu-sp>
+							<label>Món Ăn</label>
+						</div>
+						<div>
+							<ul id = "menu-sl">
+								<li>Đơn giá</li>
+								<li>Số lượng</li>
+								<li>Số tiền</li>
+								<li>Thao tác</li>
+							</ul>
+						</div>
+					</div>
+					<ul>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check1 type = "checkbox" name = "check" >
+										<label id = label for= check1>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/ga.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Gà Nguyên Con Mix</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<del>₫300000</del>
+											<span>  ₫</span>
+											<span name = "dongia">250000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru1 name = "tru" type = "button" value = "-">
+															<label for ="b_tru1">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong1 name = "cong" type = "button" value = "+">
+															<label for ="b_cong1">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa1" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa1">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check2 type = "checkbox" name = "check" >
+										<label id = label for= check2>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/com-nieu.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Cơm Niêu Xá Xíu</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+								
+											<span>₫</span>
+											<span name = "dongia">45000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru2 name = "tru" type = "button" value = "-">
+															<label for ="b_tru2">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong2 name = "cong" type = "button" value = "+">
+															<label for ="b_cong2">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa2" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa2">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check3 type = "checkbox" name = "check" >
+										<label id = label for= check3>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/tra-dao.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Trà Đào</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<del>₫16000</del>
+											<span>  ₫</span>
+											
+											<span name = "dongia">15000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru3 name = "tru" type = "button" value = "-">
+															<label for ="b_tru3">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong3 name = "cong" type = "button" value = "+">
+															<label for ="b_cong3">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa3" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa3">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check4 type = "checkbox" name = "check" >
+										<label id = label for= check4>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/pizza-hai-san.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Pizza Hải Sản</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<span>₫</span>
+											<span name = "dongia">175000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru4 name = "tru" type = "button" value = "-">
+															<label for ="b_tru4">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong4 name = "cong" type = "button" value = "+">
+															<label for ="b_cong4">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa4" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa4">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check5 type = "checkbox" name = "check" >
+										<label id = label for= check5>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/sua-tuoi-tran-chau-duong-den.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Sữa Tươi Trân Châu Đường Đen</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<span>₫</span>
+											<span name = "dongia">60000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru5 name = "tru" type = "button" value = "-">
+															<label for ="b_tru5">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong5 name = "cong" type = "button" value = "+">
+															<label for ="b_cong5">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa5" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa5">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check6 type = "checkbox" name = "check" >
+										<label id = label for= check6>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/ga.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Gà Nguyên Con Mix</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<span>₫</span>
+											<span name = "dongia">35000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru6 name = "tru" type = "button" value = "-">
+															<label for ="b_tru6">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong6 name = "cong" type = "button" value = "+">
+															<label for ="b_cong6">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa6" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa6">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check7 type = "checkbox" name = "check" >
+										<label id = label for= check7>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/ga.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Gà Nguyên Con Mix</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<span>₫</span>
+											<span name = "dongia">35000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru7 name = "tru" type = "button" value = "-">
+															<label for ="b_tru7">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong7 name = "cong" type = "button" value = "+">
+															<label for ="b_cong7">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa7" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa7">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check8 type = "checkbox" name = "check" >
+										<label id = label for= check8>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/ga.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Gà Nguyên Con Mix</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<span>₫</span>
+											<span name = "dongia">35000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru8 name = "tru" type = "button" value = "-">
+															<label for ="b_tru8">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong8 name = "cong" type = "button" value = "+">
+															<label for ="b_cong8">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa8" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa8">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check9 type = "checkbox" name = "check" >
+										<label id = label for= check9>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/ga.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Gà Nguyên Con Mix</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<span>₫</span>
+											<span name = "dongia">35000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru9 name = "tru" type = "button" value = "-">
+															<label for ="b_tru9">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong9 name = "cong" type = "button" value = "+">
+															<label for ="b_cong9">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa9" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa9">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class = "mon">
+							<div >
+								<div id = "sp" >
+									<div id = "abc">
+										<input id = check10 type = "checkbox" name = "check" >
+										<label id = label for= check10>
+											<span id = span></span>
+										</label>
+									</div>
+									<a href="" id = "anh">
+										<img src = "Anh_monan/ga.jpg" width="100px" height = auto />
+									</a>
+									<a id = "ten" href="">Gà Nguyên Con Mix</a>
+								</div>
+								<div>
+									<ul id = "sl" class = "hang">
+										<li>
+											<span>₫</span>
+											<span name = "dongia">35000</span>
+										</li>
+										<li id = "">
+											<table>
+												<tr>
+													<td >
+														<div>
+															<input id = b_tru10 name = "tru" type = "button" value = "-">
+															<label for ="b_tru10">
+																<span id = "tru">-</span>
+															</label>
+														</div>
+													</td>
+													<td name = "soluong" id = "slg">2</td>
+													<td >
+														<div>
+															<input id = b_cong10 name = "cong" type = "button" value = "+">
+															<label for ="b_cong10">
+																<span id = "cong">+</span>
+															</label>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</li>
+										<li id = "sotien">
+											<span>₫</span>
+											<span name = "sotien">Số tiền</span>
+										</li>
+										<li>
+											<input id = "b_xoa10" type ="button" value="Xóa" name = "button">
+											<label for = "b_xoa10">
+												<span id = "xoa">Xóa</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id = "trong">
+					<img src = "Anh_monan/emptycart.png" height = "200px" width="auto" />
+					<p>Giỏ hàng của bạn còn trống</p>
+					<div id = "chonmon">
+						<a id = "dat" href = "">Chọn món ngay</a>
+					</div>
+				</div>
+			</div>
+			<div id = "thanhtoan">
+				<lable id = "tatca">
+					<div id = "all">
+						<input type = "checkbox" id = "checkall">
+						<label id = "labelall" for = "checkall">
+							<span id = "spanall"></span>
+						</label>
+					</div>
+					<label>
+						<span>Chọn tất cả (</span>
+						<span id = "tongmon">10</span>
+						<span>)</span>
+					</label>
+				</lable>
+				<div >	
+					<div id = "tong">
+						<span>Tổng tiền: </span>
+						<span id = 'd'>₫</span>
+						<span id = tongtien>000000</span>
+					</div>
+					<div id = "datmua">
+						<a id = "dat" href = "">Đặt Hàng</a>
+					</div>
+				</div>
+			</div>
+			<div id = "menu-goi-y">
+					<ul>
+						<span >Có Thể Bạn Cũng Thích</span ><br>
+					<!--	<li id="title"><p>HÔM NAY ĂN GÌ</p></li>-->
+						
+							<li>
+									<div class = "food">
+									<a href="com_ga_bobby.html" class="avt"><img src='https://images.foody.vn/res/g11/105260/prof/s750x400/foody-upload-api-foody-mobile-com-jpg-180813103513.jpg' alt="" title="" name="img" class="img"></a><br/>
+									<a href="com_ga_bobby.html" name="res" class="restaurant"><strong>Cơm Gà Giòn Booby - Trần Đại Nghĩa</strong></a>
+									<a href="com_ga_bobby.html" name="add" class="address">263 Trần Đại Nghĩa, Quận Hai Bà Trưng, Hà Nội</a>
+									<span id="deal">Giảm trực tiếp 20%</span>
+									</div>
+								
+							</li>
+							<li>
+									<div class = "food">
+									<a href="" class="avt"><img src="https://images.foody.vn/res/g81/800274/prof/s750x400/foody-upload-api-foody-mobile-hoang-hue-jpg-181114155443.jpg" alt="" title="" name="img" class="img"></a><br/>
+									<a href="" name="res" class="restaurant"><strong>Hoàng Huệ - Cơm Rang & Bún Bò Trộn</strong></a>
+									<a href="" name="add" class="address">8B Ngõ 4 Ao Sen, Quận Hà Đông, Hà Nội</a>
+									<span id="deal">Giảm trực tiếp 40%</span>
+									</div>
+								
+							</li>
+							<li>
+									<div class = "food">
+									<a href="che_ngon_hn.html" class="avt"><img src="https://images.foody.vn/res/g26/255600/prof/s750x400/foody-upload-api-foody-mobile-avar1-jpg-181126093556.jpg" alt="" title="" name="img" class="img"></a><br/>
+									<a href="che_ngon_hn.html" name="res" class="restaurant"><strong>Chè Ngon Hà Nội &amp; Món Ngon Đường Phố - Tô Hiệu</strong></a>
+									<a href="che_ngon_hn.html" name="add" class="address">297 Tô Hiệu, Quận Cầu Giấy, Hà Nội</a>
+									<span id="deal">Giảm trực tiếp 40%</span>
+									</div>
+								
+							</li>
+
+							<li>
+									<div class = "food">
+									<a href="" class="avt"><img src="https://images.foody.vn/res/g92/916761/prof/s750x400/foody-upload-api-foody-mobile-mi-y-190515102818.jpg" alt="" title="" name="img" class="img"></a><br/>
+									<a href="" name="res" class="restaurant"><strong>Apollato - Chicken & Pizza</strong></a>
+									<a href="" name="add" class="address">Ki Ốt 8 Nhà G3 ĐH Quốc Gia Hà Nội, 144 Xuân Thủy, Quận Cầu Giấy, Hà Nội</a>
+									<span id="deal">Giảm trực tiếp 40%</span>
+									</div>
+								
+							</li>
+							<li>
+									<div class = "food">
+									<a href="" class="avt"><img src="https://images.foody.vn/res/g23/222582/prof/s750x400/foody-mobile-5879-jpg-154-636341507032302599.jpg" alt="" title="" name="img" class="img"></a><br/>
+									<a href="" name="res" class="restaurant"><strong>Jollibee - Tô Hiệu</strong></a>
+									<a href="" name="add" class="address">303 - 305 Tô Hiệu, Quận Cầu Giấy, Hà Nội</a>
+									<span id="deal">Giảm trực tiếp 40%</span>
+									</div>
+								
+							</li>
+
+							<li>
+									<div class = "food">
+									<a href="" class="avt"><img src="https://images.foody.vn/res/g96/952518/prof/s750x400/foody-upload-api-foody-mobile-avar8-190903103620.jpg" alt="" title="" name="img" class="img"></a><br/>
+									<a href="" name="res" class="restaurant"><strong>Cơm Gà Bảo Nam - Cơm Văn Phòng Online</strong></a>
+									<a href="" name="add" class="address">26 Ngách 44/130 Trần Thái Tông, Quận Cầu Giấy, Hà Nội</a>
+									<span id="deal">Giảm trực tiếp 40%</span>
+									</div>
+							</li>
+					</ul>
+		  		</div>
+			<div class="footer2">
+		        <div class="trai"><img src="Anh_monan/logo.png" alt="" class="anh"></div>
+		        <div class="giua">
+		            <div class="about"><b>ABOUT US</b></div>
+		            <p>Vốn là người đam mê ẩm thực, chúng tôi tạo ra trang web này để giúp cho mọi người tìm kiếm các công thức nấu ăn, làm bánh, review đồ bếp và đặt những món mình thích ^.^ </p>
+		        </div>
+		        <div class="phai">
+		            <div class="follow"><b>FOLLOW US</b></div>
+		            <ul class="list">
+		                <li><a href=""><div class="fa fa-home"></div></a></li>
+		                <li><a href=""><div class="fa fa-instagram"></div></a></li>
+		                <li><a href=""><div class="fa fa-twitter"></div></a></li>
+		                <li><a href=""></a><div class="fa fa-youtube-play"></div></li>
+		            </ul>
+		        </div>
+		    </div>
+		</div>
+		<script type="text/javascript" src = "gio_hang1.js"></script>
+	</body>
+</html>

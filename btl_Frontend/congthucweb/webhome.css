@@ -1,0 +1,355 @@
+.header_top{
+    text-align: center;
+    min-height: 160px;
+}
+.text_hearder_top{
+    color:  black;
+    text-decoration: none;
+    outline: none !important;
+}
+.text_hearder_top:hover{
+    color: white;
+    text-decoration: none;
+}
+.header_center{
+    display: flex;
+}
+.links_left{
+    width: 25%;
+}
+.links_first {
+    display: inline;
+    position: absolute;
+    top:7px;
+    left: 110px;;
+}
+.links_first .anh{
+    height: 150px;
+} 
+.links_last{
+    display: inline;
+    position: relative;
+}
+.links_search{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 60px; 
+    width: 50%;
+}
+.fa-search{
+  position: absolute;
+    left: 850px;
+  top: 69px;
+}
+.links_left{
+    position: relative;
+    display: inline;
+    bottom: 5px;
+    font-size: 15px;
+}
+.links_right{
+    float: right;
+    width: 25%;
+    margin-top: 60px;
+    display: flex; 
+}
+.links_last{
+    color: black;
+    width: 50%;
+    margin-right: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    outline: none !important;
+}
+.links_last button{
+    background-color: #BFA640;
+    padding: 5px;
+}
+.search_input{
+    width: 400px;
+    height: 40px;
+    border: 0.7px solid #BFA640;
+    /*border-radius: 10px;*/
+}
+.header_center{
+    padding: 0px 100px;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.header_center{
+    background-size: cover;
+    background-position: center center;
+    background-image: none;
+    background-repeat: no-repeat;  
+}
+/*css noidung*/
+.noidung2{
+    display: inline-grid;
+    width: 100%;
+}
+.tieude_noidung2{
+    border-bottom: 1px solid #d4d2d2;
+    padding-top: 50px;
+    /*margin-left: 20px;*/
+    position: relative;
+    /*float: left;*/
+    display: flex;
+    color: #998634;
+    text-align: center;
+    padding-left: 42.5%;
+    font-size: 30px;
+}
+.tieude_noidung2_text{
+  font-family: "Abelard Medium";
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.noidung2_main {
+background: rgb(247, 244, 244);
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 10px 10px 10px 10px; /*Make the grid smaller than the container*/
+  grid-gap: 170px;
+  padding-top: 40px;
+  padding-right: 250px;
+}
+.noidung2_main > div{
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  text-align: center;
+  font-size: 14px;
+}
+/*css sản phẩm*/
+.product{
+    width: 250px;
+    height: 200px;
+    font-size: 14px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.product_images{
+    display: block;
+    background-size: cover;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#BFA640;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.product:hover .overlay{
+    opacity: 0.7;
+    height: 100%;
+    padding-top: 10px;
+}
+#icon_shopping{
+    font-size: 50px;
+}
+#icon_shopping:hover {
+    color: red;
+    font-size: 60px;
+}
+.icon {
+    display: flex;
+  /* padding-top: 50px;*/
+    color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.product_name{
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 50px;
+    width: 100%;
+    /*color: rgb(36, 36, 36);*/
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: 0.1px;
+    text-align: center;
+    text-overflow: ellipsis;
+    margin: 0px;
+    overflow: hidden;
+    padding-top: 10px;
+    
+
+}
+.product_name a{
+    color: #242424;
+    font-size: 15px;
+    text-align: center;
+    max-height: 43px;  
+    height: auto;
+    
+}
+
+.product_name:hover a{
+    text-decoration: none;
+    color: #BFA640;
+    /*overflow: visible;*/
+}
+.price_text{
+    align-self: stretch;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 8px 0px 0px;
+    display: block;
+}
+.original{
+    text-decoration: line-through;
+    color: rgb(120,120,120);
+    font-size: 13px;
+    font-weight: 300;
+}
+.price{
+    color:#BFA640;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.percent{
+    background-image: url(https://frontend.tikicdn.com/_new-next/static/img/icons/product/deal-tag@2x.png);
+    position: absolute;
+    display: flex;
+    width: 40px;
+    height: 36px;
+    align-items: center;
+    background-size: cover;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: white;
+    top: 1px;
+}
+.xem{
+    margin-top: -30px;
+    margin-left:500px;
+}
+.button_xemthem{
+    margin-bottom: 50px;
+    width: 100px;
+    border: 1px solid #f7ce9a;
+    border-radius: 8px;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    margin-left: 45%;
+}
+.button_xemthem:hover{
+    background-color:#BFA640;
+    color: white;
+
+}
+/* css cho noidung4*/
+.noidung4_main{
+    background-color: rgb(247, 244, 244);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.tongthe_small ul{
+	display: flex;
+    margin-left:120px;
+    margin-right: 120px;
+	list-style: none;
+    margin-bottom: 20px;
+}
+.tongthe_small a{
+	text-decoration: none;
+	color: #2B2829;
+}
+.tongthe_small img{
+    height: 250px;
+    width: 100%;
+}
+.tongthe_small li{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    border: solid 2px #BFA640;
+    padding: 10px;
+}
+.y{
+    margin-left: -40px;
+    margin-right: 20px;
+}
+.z{
+    margin-right: 20px;
+}
+.tongthe_small a:hover{
+    color:#BFA640;
+    text-decoration: none;
+}
+/* css cho footer  */
+.footer2{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    background: #efefef;
+  }
+.footer2 .trai{
+    width: 15%;
+    margin-left: 90px;
+}
+.footer2 .trai .anh{
+    margin-top: 10px;
+    width: 90%;
+    /*height: 150px;*/
+}
+.footer2 .giua{
+    margin-left: 70px;
+    margin-top: 25px;
+    width: 60%;
+    margin-right: 100px;
+}
+.footer2 .giua .about{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.giua p{
+    font-size: 17px;
+}
+.footer2 .giua >p{
+    width:100%;
+}
+.footer2 .phai{
+    width:25%;
+    margin-top: 25px;
+}
+.footer2 .phai .follow{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.footer2 .phai .list{
+    list-style: none;
+    display:flex;
+    margin-left: -50px;
+}
+.footer2 .phai .list >li{
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.footer2 .phai .fa{
+    color: #535050;
+}
+.list div{
+    font-size: 20px;
+}
+
