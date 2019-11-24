@@ -1,13 +1,15 @@
-*{
-	margin: 0px;
-	padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
 div {
     display: block;
 }
-body{
-	margin: 0;
-    font-family: Noto Sans,Arial,sans-serif;
+
+body {
+    margin: 0;
+    font-family: Noto Sans, Arial, sans-serif;
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.5;
@@ -15,205 +17,200 @@ body{
     text-align: left;
     background-color: #f2f2f2;
 }
-#container{
-	background-color: #f2f2f2;
-	
+
+#container {
+    background-color: #f2f2f2;
 }
+
+
 /*=== body-container ===*/
 
-
-#body{
-	
-	margin-left: 50px;
-	margin-right: 50px;
-	background-color: #f2f2f2;
-	border: solid 1px #BFA640;
-	font-size: 14px;
-	margin-bottom: 30px;
+#body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f2f2f2;
+    border: solid 1px #BFA640;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
-#menu{
-	background: #f2f2f2;
-	/*height: 570px;*/
-	position: relative;
-    
+#menu {
+    background: #f2f2f2;
+    /*height: 570px;*/
+    position: relative;
     padding: 15px 0 0 15px;
 }
-#menu ul{
 
-	list-style-type: none;
-	text-align: center;		
+#menu ul {
+    list-style-type: none;
+    text-align: center;
 }
 
-#menu li{
-	display: inline-block;
-	line-height: 20px;
-	/*margin: 3px;*/
-	width: 228px;
+#menu li {
+    display: inline-block;
+    line-height: 20px;
+    /*margin: 3px;*/
+    width: 228px;
     padding: 0 5px 5px 0;
 }
 
-
-#menu a{
-	text-align: center;
-	color: #000;
-	text-decoration: none;
-	display: block;
-	width:228px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+#menu a {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 228px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-#menu a:hover{
-	background-color: #f1f1f1;
-	color: #000000;
+#menu a:hover {
+    background-color: #f1f1f1;
+    color: #000000;
 }
 
-#menu li{
-	position: relative;
+#menu li {
+    position: relative;
 }
 
-#menu li:hover .menu-details
-{
-	display: block;
+#menu li:hover .menu-details {
+    display: block;
 }
 
-.menu-details li{
-	margin-left: 0;
+.menu-details li {
+    margin-left: 0;
 }
 
-#title{
-	float: left;
+#title {
+    float: left;
 }
 
-.food{
-	/*border: solid 1px gray;*/
-	background-color: white;
-	display: block;
+.food {
+    /*border: solid 1px gray;*/
+    background-color: white;
+    display: block;
     position: relative;
     float: left;
     width: 228px;
     padding: 0 0px 0px 0;
 }
-.avt{
-	display: block;
+
+.avt {
+    display: block;
     float: left;
     width: 100%;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     overflow: hidden;
-
-}
-.img{
-	margin-left:  5px;
-	display: block;
-    float: left;
-    width: 100%;
-    height: 142px;
-    border-radius: 0;
-    
 }
 
-.imgs{
-    margin-left:  5px;
+.img {
+    margin-left: 5px;
     display: block;
     float: left;
     width: 100%;
     height: 142px;
     border-radius: 0;
-    
 }
 
-.imgt{
-    margin-left:  5px;
+.imgs {
+    margin-left: 5px;
     display: block;
     float: left;
     width: 100%;
     height: 142px;
     border-radius: 0;
-    
 }
 
-.imgc{
+.imgt {
+    margin-left: 5px;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 142px;
+    border-radius: 0;
+}
+
+.imgc {
     margin-left: : 5px;
     display: block;
     float: left;
     width: 100%;
     height: 142px;
     border-radius: 0;
-    
 }
-#menu-bar{
-	
-	background-color: white;
-	height: 60px;
+
+#menu-bar {
+    background-color: white;
+    height: 60px;
     background: #fff;
+    padding-top: 0px;
     padding-left: 20px;
     line-height: 60px;
-}
-#ul{
-	list-style-type: none;
-	text-align: center;
+    position: relative;
 }
 
-#li{
-	display: inline-block;
-	width:120px;
-	height: 40px;
-	line-height: 40px;
-	margin-left: -5px;
+#ul {
+    list-style-type: none;
+    text-align: center;
 }
 
-
-#menu-bar{
-	background-color: black;
-}
-#menu-bar a{
-	text-decoration: none;
-	display: block;
-	color: black;
-
-
+#li {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
 }
 
-#menu-bar ul li>a:hover{
-	background-color: #f1f1f1;
-	color:black;
-	text-decoration: underline;
+#menu-bar {
+    background-color: black;
 }
 
-#menu-bar ul{
-	white-space: nowrap;
-	margin: 0;
+#menu-bar a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+#menu-bar ul li>a:hover {
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: underline;
+}
+
+#menu-bar ul {
+    white-space: nowrap;
+    margin: 0;
     padding: 0;
     max-width: 770px;
     overflow: hidden;
     height: 60px;
     float: left;
 }
-#menu-bar ul li #li-detail{
-	display: block;
+
+#menu-bar ul li #li-detail {
+    display: block;
     padding: 0 8px;
-
-}
-#menu-bar ul li #li-detail span{
-	
-	color: #BFA640;
-	text-transform: uppercase;
-	font-weight: bold;
 }
 
-#li-detail:hover{
-	cursor: pointer;
+#menu-bar ul li #li-detail span {
+    color: #BFA640;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-#logo-box{
-	float: left;
+#li-detail:hover {
+    cursor: pointer;
 }
 
-#logo-img{
-	display: block;
+#logo-box {
+    float: left;
+}
+
+#logo-img {
+    display: block;
     float: left;
     width: 100px;
     height: 40px;
@@ -221,23 +218,24 @@ body{
     margin: 12px 15px 0 0;
     border-radius: 5px;
 }
-#nav-box{
-	float: left;
+
+#nav-box {
+    float: left;
     padding-left: 30px;
     width: 980px;
 }
 
-#search-banner{
-	color: #fff;
+#search-banner {
+    color: #fff;
     background: url(https://thesra.org/wp-content/uploads/2018/06/Vegware_suppliers_header_no_logo-1600x500.jpg) no-repeat 60%;
     background-size: cover;
     min-height: 500px;
     position: relative;
     margin-bottom: 20px;
-
 }
-#search{
-	width: 1200px;
+
+#search {
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 10px;
@@ -245,8 +243,8 @@ body{
     position: relative;
 }
 
-#logo{
-	text-align: center;
+#logo {
+    text-align: center;
     width: 500px;
     height: 250px;
     margin-left: 300px;
@@ -254,11 +252,9 @@ body{
     position: relative;
 }
 
-#search-title{
+#search-title {}
 
-}
-
-.para{
+.para {
     align-items: center!important;
     justify-content: space-between!important;
     display: flex;
@@ -267,16 +263,16 @@ body{
     margin-left: -10px;
 }
 
-#title-search{
-	flex-basis: 0;
+#title-search {
+    flex-basis: 0;
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
     margin-left: 10px;
 }
 
-#title-content{
-	font-size: 28px;
+#title-content {
+    font-size: 28px;
     margin-top: 26px;
     margin-bottom: 17px;
     font-family: inherit;
@@ -287,8 +283,8 @@ body{
     font-weight: none;
 }
 
-#contact{
-	    flex: 0 0 auto;
+#contact {
+    flex: 0 0 auto;
     width: auto;
     max-width: none;
     position: relative;
@@ -298,20 +294,19 @@ body{
     min-width: 0;
 }
 
-#info-contact{
-	font-size: 16px;
+#info-contact {
+    font-size: 16px;
     font-weight: 700;
     padding-top: 18px;
 }
 
-#search-bar{
-	display: flex;
-    flex-wrap: wrap
-    margin-right: 0;
+#search-bar {
+    display: flex;
+    flex-wrap: wrap margin-right: 0;
     margin-left: 0;
 }
 
-#search-bar-input-text{
+#search-bar-input-text {
     padding-right: 0;
     padding-left: 0;
     flex-basis: 0;
@@ -322,12 +317,12 @@ body{
     width: 100%;
 }
 
-#search-bar-group-input{
+#search-bar-group-input {
     position: relative;
 }
 
-.search-bar-detail{
-	height: 65px;
+.search-bar-detail {
+    height: 65px;
     border: 0;
     padding: 20px;
     border-radius: 0;
@@ -342,21 +337,20 @@ body{
     overflow: visible;
 }
 
-#search-bar-button{
-	flex: 0 0 auto;
+#search-bar-button {
+    flex: 0 0 auto;
     width: auto;
     max-width: none;
     position: relative;
-    
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
     min-width: 0;
 }
 
-.btn{
-	cursor: pointer;
-	    color: #BFA640;
+.btn {
+    cursor: pointer;
+    color: #BFA640;
     background-color: #0288d1;
     display: inline-block;
     font-weight: 400;
@@ -374,8 +368,8 @@ body{
     line-height: 1.5;
 }
 
-.btn-find{
-	font-size: 18px;
+.btn-find {
+    font-size: 18px;
     font-weight: 600;
     border-radius: 0;
     background-color: black;
@@ -384,67 +378,81 @@ body{
     width: 200px;
 }
 
-.phone-num{
-	color: black;
+.phone-num {
+    color: black;
 }
 
-.time{
-	color: black;
+.time {
+    color: black;
 }
+
 
 /* css cho footer  */
-.footer2{
+
+.footer2 {
     margin-top: 50px;
     width: 100%;
     display: flex;
     background: #efefef;
-  }
-.footer2 .trai{
+}
+
+.footer2 .trai {
     width: 15%;
     margin-left: 90px;
 }
-.footer2 .trai .anh{
+
+.footer2 .trai .anh {
     margin-top: 10px;
     width: 90%;
     /*height: 150px;*/
 }
-.footer2 .giua{
+
+.footer2 .giua {
     margin-left: 70px;
     margin-top: 25px;
     width: 60%;
     margin-right: 100px;
 }
-.footer2 .giua .about{
+
+.footer2 .giua .about {
     font-size: 25px;
     margin-bottom: 15px;
 }
-.giua p{
+
+.giua p {
     font-size: 17px;
 }
-.footer2 .giua >p{
-    width:100%;
+
+.footer2 .giua>p {
+    width: 100%;
 }
-.footer2 .phai{
-    width:25%;
+
+.footer2 .phai {
+    width: 25%;
     margin-top: 25px;
 }
-.footer2 .phai .follow{
+
+.footer2 .phai .follow {
     font-size: 25px;
     margin-bottom: 15px;
 }
-.footer2 .phai .list{
+
+.footer2 .phai .list {
     list-style: none;
-    display:flex;
+    display: flex;
     margin-left: -10px;
 }
-.footer2 .phai .list >li{
+
+.footer2 .phai .list>li {
     padding: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
 }
-.footer2 .phai .fa{
+
+.footer2 .phai .fa {
     color: #535050;
 }
-.list div{
+
+.list div {
     font-size: 20px;
 }
